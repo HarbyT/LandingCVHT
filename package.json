@@ -1,0 +1,23 @@
+{
+  "name": "landingcvht",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gp-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarbyT/LandingCVHT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarbyT/LandingCVHT/issues"
+  },
+  "homepage": "https://github.com/HarbyT/LandingCVHT#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
