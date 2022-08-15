@@ -10,6 +10,7 @@ const options = {
 	}
 };
 
+
 // código como viene de rapid API, uso de fetch
 // fetch('', options)
 //	.then(response => response.json())
@@ -35,8 +36,8 @@ async function fetchData(urlApi) {
           <img src="${video.snippet.thumbnails.high.url}" alt="${video.snippet.description}" class="w-full">
         </div>
         <div class="mt-4 flex justify-between">
-          <h3 class="text-sm text-gray-700">
-            <span aria-hidden="true" class="absolute inset-0"></span>
+           <h3 class="text-sm text-gray-700">
+            <span aria-hidden="true" class="absolute inset-0"><a href="${video.snippet.url}"></a></span>
             ${video.snippet.title}
           </h3>
         </div>
